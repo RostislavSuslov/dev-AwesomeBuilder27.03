@@ -1,0 +1,13 @@
+.build-item {
+    fill: #00ff09;
+    stroke: #0f0;
+    stroke-width: 4px;
+    fill-opacity: 0;
+    stroke-opacity: 0;
+    transition: .3s;
+    cursor: pointer;
+    &:hover {
+        fill-opacity: 0.3;
+        stroke-opacity: 1;
+    }
+}
