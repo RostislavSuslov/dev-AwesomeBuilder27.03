@@ -53,3 +53,21 @@
     }
 }
 
+.btn {
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+
+    &.btn-primary {
+        background-color: chocolate;
+        color: #fff;
+    }
+
+    &.btn-secondary {
+        background-color: chartreuse;
+    }
+
+    &:hover {
+        opacity: .8;
+    }
+}
