@@ -85,22 +85,7 @@ showInformation(cellFlatsSold, 'data-flats-sold')
 
 
 
-
-const test1 = document.querySelector('.test-1')
-const test2 = document.querySelector('.test-2')
-
-
-
-test1.addEventListener('click', ()=>{
-    test1.style.backgroundColor = 'green'
-})
-
-
-test2.addEventListener('click', (event)=>{
-    event.target.style.backgroundColor = 'green'
-})
-
-
+ 
 
 
 
